@@ -115,3 +115,4 @@ if uploaded_file is not None:
 
         except Exception as e:
             st.error(f"Произошла ошибка при анализе файла. Убедитесь, что он имеет правильный формат и нужные колонки (OrderID, OrderDate, Dish, Price). Ошибка: {e}")
+            # v2
