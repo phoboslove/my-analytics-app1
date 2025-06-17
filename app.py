@@ -1,7 +1,9 @@
 # ==============================================================================
 # ФИНАЛЬНЫЙ КОД "АНАЛИТИЧЕСКОГО ДВИЖКА" v2.2 (ИСПРАВЛЕННЫЙ И ПОЛНЫЙ)
 # ==============================================================================
-
+import streamlit_authenticator as stauth
+import yaml
+from yaml.loader import SafeLoader
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
