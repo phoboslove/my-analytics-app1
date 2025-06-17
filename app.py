@@ -150,3 +150,5 @@ elif authentication_status == False:
     st.error('Имя пользователя или пароль неверны')
 elif authentication_status == None:
     st.warning('Пожалуйста, введите имя пользователя и пароль для доступа.')
+elif authentication_status == None:
+    st.warning('Пожалуйста, введите имя пользователя и пароль для доступа.')
